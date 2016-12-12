@@ -5,8 +5,9 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-body {
+body {    
 background-size: cover;
+background-color: #999999;
 overflow-x: hidden;
 }
 
