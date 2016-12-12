@@ -1,17 +1,10 @@
-/*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-
 body {
 background-size: cover;
 overflow-x: hidden;
 }
 
 header {
-    background-repeat: no-repeat;
+background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   -webkit-background-size: cover;
@@ -22,9 +15,6 @@ header {
   color: white;
 }
 
-section{
-    padding: 100px 0px;
-}
 
 a {
   background-color: transparent;
@@ -62,15 +52,6 @@ a:focus {
   text-decoration: underline;
 }
 
-.col-md-12{
-        padding: 10px 100px;
-    }
-    
-     .col-lg-3{
-        align-content: center;
-        text-align: center;
-}
-
 .pindex {
     font-family: 'Roboto Slab', serif;
     font-size: 72px;
@@ -86,6 +67,7 @@ a:focus {
     font-family: 'Roboto Slab', serif;
     color: floralwhite;
     }
+
 .ppages{
     font-family: 'Roboto Slab', serif;
     font-size: 36px;
@@ -103,13 +85,14 @@ a:focus {
 }
 
 .aindex{
-   font-family: 'Roboto Slab', serif;
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-    color: #333333;
-    align-content: center;
-    }
+font-family: 'Roboto Slab', serif;
+font-size: 24px;
+font-weight: 600;
+text-align: center;
+color: #333333;
+align-content: center;
+}
+
 .aindex:hover{
     color: darkolivegreen;
 }
@@ -125,52 +108,36 @@ pre{
 }
 
 footer{
-    padding: 30px 100px;
+    padding: 100px 0;
     text-align: center;
 }
 
-    .pcol{
-        color: floralwhite;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        font-size: 14px;
-        
-    }
 
  video#bgvid { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
-    background-size: cover; }
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-ms-transform: translateX(-50%) translateY(-50%);
+-moz-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(polina.jpg) no-repeat;
+background-size: cover;
+}
 
-section {
-  padding: 100px 0;
-  size: cover;
+
+section{
+padding: 50px 0px;
+margin:0;
 }
-section h2.section-heading {
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
+
+
+.contenido {
+background-color: #ffcc99;
+height: auto;    
 }
-section h3.section-subheading {
-  font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: none;
-  font-style: italic;
-  font-weight: 400;
-  margin-bottom: 75px;
-    }
-    .contenido {
-    background-color: #ffcc99;
-    height: 1000px;    
-    }
