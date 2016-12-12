@@ -15,6 +15,10 @@ background-repeat: no-repeat;
   color: white;
 }
 
+/* este arreglo dice: todo lo que comience con tal…*/
+section#content div[class^="col-sm-"] { 
+  min-height:200px; 
+} 
 
 a {
   background-color: transparent;
